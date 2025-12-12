@@ -401,7 +401,7 @@ if "example_query" in st.session_state:
     st.session_state.messages.append({"role": "assistant", "content": response})
 
 # ==================== CHAT INPUT ====================
-if prompt := st.chat_input("Ask me about any stock... (e.g., 'Should I invest in Apple?')"):
+if prompt := st.chat_input("Ask me about any stock"):
     # Validate webhook URL
     if not st.session_state.webhook_url:
         st.error(" Please configure your n8n URL in Settings first!")
