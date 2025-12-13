@@ -126,7 +126,7 @@ if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 if "webhook_url" not in st.session_state:
     st.session_state.webhook_url = "https://joshhh.app.n8n.cloud/webhook/a6e4f801-9e7f-4e21-9056-06130f2a6f9b/chat"
-
+#JOSH
 st.markdown('<div class="main-header"> AlphaAgents</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Your AI-Powered Investment Research Assistant</div>', unsafe_allow_html=True)
 st.markdown("---")
